@@ -13,6 +13,9 @@ public class Main {
         if (refill > 1000) {
             System.out.println(refill / 100);
         }
+        if (refill < 1000) {
+            System.out.println(refill = 0);
+        }
 
         int bonuses = refill / 100;
 

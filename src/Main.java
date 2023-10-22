@@ -14,9 +14,9 @@ public class Main {
             System.out.println(refill / 100);
         }
 
-        int bonuses = finalScore / 100;
+        int bonuses = refill / 100;
 
         System.out.println("Итоговый счет:");
-        System.out.println(finalScore);
+        System.out.println(finalScore + bonuses);
     }
 }

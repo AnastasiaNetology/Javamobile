@@ -2,8 +2,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int amount = 100;     //счет
-        int refill = 1100;    //сумма пополнения
+        int amount = 300;     //счет
+        int refill = 1500;    //сумма пополнения
         int bonusCoef = 100;  //бонусный коэффициент
         int finalScore;
         finalScore = amount + refill;

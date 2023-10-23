@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
 
-        int amount = 300;                   //текущий счет абонента до пополнения
-        int refill = 1500;                  //сумма пополнения
+        int amount = 200;                   //текущий счет абонента до пополнения
+        int refill = 1300;                  //сумма пополнения
         int bonusCoef = 100;                //бонусный расчет
         int finalScore = amount + refill;   //итоговый счет (текущий счет + сумма пополнения)
         int bonuses = refill / bonusCoef;   //итоговый бонус
